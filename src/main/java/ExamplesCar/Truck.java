@@ -1,0 +1,16 @@
+package ExamplesCar;
+
+public class Truck extends Vehicle{
+
+
+    @Override
+    public String getIdentity(final String vehicle) {
+        return "This is a cool" + vehicle;
+
+    }
+
+    @Override
+    public String getIdentity() {
+        return message + "truck";
+    }
+}
